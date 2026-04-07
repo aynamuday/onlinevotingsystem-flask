@@ -49,4 +49,4 @@ Visit http://127.0.0.1:5000 to use the app.
 ## Database
 A *pre-populated SQLite database* is included for demonstration purposes, so the system can be run immediately after setup.
 
-Select a user login credential from DB Browser.
+Open the database in DB Browser to select a user login credential.
