@@ -65,7 +65,7 @@ def home():
     if current_user.userType == "Admin":
         return render_template("timeline-admin.html", posts=posts, user=current_user)
     elif rules.isCandidate():
-        return render_template("timeline-candidate.html", posts=posts, user=current_user)
+        return render_template("timeline-candidate.html", posts=posts, user=current_user, position=rules.getUserPostRole(current_user))
     else:
         return render_template("timeline-student.html", posts=posts, user=current_user)
 
