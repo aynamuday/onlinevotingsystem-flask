@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/display.png" alt="" width="80%">
+</p>
+
 This is a Flask-based web application, designed to simulate a voting platform for Polytechnic University of the Philippines Biñan.
 
 The system uses:
