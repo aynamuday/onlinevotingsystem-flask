@@ -35,6 +35,7 @@ py -m venv venv
 .\venv\Scripts\Activate.ps1
 ```
 Your terminal prompt should now start with (venv).
+
 4. **Install the dependencies**
 ```bash
 pip install -r requirements.txt
@@ -44,6 +45,7 @@ pip install -r requirements.txt
 py main.py
 ```
 6. **Open in browser**
+
 Visit http://127.0.0.1:5000 to use the app.
 
 ## Database
