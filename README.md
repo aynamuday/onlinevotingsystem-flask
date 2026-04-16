@@ -31,23 +31,23 @@ The system uses:
 
 1. **Open terminal and go to project directory**
 2. **Create a virtual environment**
-```bash
-py -m venv venv
-```
+    ```bash
+    py -m venv venv
+    ```
 3. **Activate the virtual environment**
-```bash
-.\venv\Scripts\Activate.ps1
-```
+    ```bash
+    .\venv\Scripts\Activate.ps1
+    ```
 Your terminal prompt should now start with (venv).
 
 4. **Install the dependencies**
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 5. **Run the application**
-```bash
-py main.py
-```
+    ```bash
+    py main.py
+    ```
 6. **Open in browser**
 
 Visit http://127.0.0.1:5000 to use the app.
